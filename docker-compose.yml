@@ -98,7 +98,6 @@ services:
 volumes:
   db:
     driver: local
-    content_nginix: /user/share/nginx/html
 networks:
   pscs-network:
     driver: bridge
