@@ -45,9 +45,6 @@ services:
   processo-service:
     image: phelippnd/processo-service
     restart: always
-    build:
-      context: .
-      dockerfile: processo-service/Dockerfile
     ports:
       - 8100:8100
     depends_on:
