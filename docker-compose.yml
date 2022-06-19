@@ -43,7 +43,7 @@ services:
     networks:
       - pscs-network
   processo-service:
-    image: phelippnd/processo-service
+    image: phelippnd/processo-service:latest
     restart: always
     ports:
       - 8100:8100
