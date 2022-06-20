@@ -5,7 +5,10 @@ name: Continuous Integration with Github
 # separate terms of service, privacy policy, and support
 # documentation.
 
-on: [push]
+on: 
+  push:
+    branches: 
+      - master
 
 jobs:
   build:
